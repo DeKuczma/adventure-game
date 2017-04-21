@@ -635,13 +635,13 @@
               <Left>0</Left>
               <Top>620</Top>
               <Clickable>True</Clickable>
-              <Visibility>Normal</Visibility>
+              <Visibility>Persistent</Visibility>
               <PopupYPos>0</PopupYPos>
-              <ZOrder>2</ZOrder>
-              <BorderColor>8</BorderColor>
+              <ZOrder>1</ZOrder>
+              <BorderColor>0</BorderColor>
               <Transparency>0</Transparency>
-              <BackgroundColor>65504</BackgroundColor>
-              <BackgroundImage>-1</BackgroundImage>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>66</BackgroundImage>
               <ID>0</ID>
               <Name>gInventory</Name>
             </NormalGUI>
@@ -650,16 +650,36 @@
                 <ItemWidth>40</ItemWidth>
                 <ItemHeight>22</ItemHeight>
                 <CharacterID>-1</CharacterID>
-                <Height>75</Height>
+                <Height>90</Height>
                 <Locked>False</Locked>
-                <Width>800</Width>
-                <Left>450</Left>
-                <Top>16</Top>
+                <Width>939</Width>
+                <Left>0</Left>
+                <Top>10</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>invCustomInv</Name>
               </GUIInventory>
             </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>474</Height>
+              <Width>343</Width>
+              <Left>940</Left>
+              <Top>620</Top>
+              <Clickable>True</Clickable>
+              <Visibility>Persistent</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>2</ZOrder>
+              <BorderColor>0</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>67</BackgroundImage>
+              <ID>1</ID>
+              <Name>gList</Name>
+            </NormalGUI>
+            <Controls />
           </GUIMain>
         </GUIs>
       </GUIFolder>
@@ -672,7 +692,7 @@
             <ID>1</ID>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
-            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <PlayerStartsWithItem>True</PlayerStartsWithItem>
             <CursorImage>44</CursorImage>
             <Image>44</Image>
             <Description>iLisc</Description>
@@ -968,15 +988,15 @@
           <Character>
             <ID>0</ID>
             <ScriptName>cFabien</ScriptName>
-            <RealName>Druid</RealName>
-            <NormalView>2</NormalView>
-            <SpeechView>2</SpeechView>
-            <IdleView>2</IdleView>
-            <ThinkingView>2</ThinkingView>
+            <RealName>Fabien</RealName>
+            <NormalView>1</NormalView>
+            <SpeechView>1</SpeechView>
+            <IdleView>1</IdleView>
+            <ThinkingView>1</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>1</StartingRoom>
-            <StartX>1066</StartX>
-            <StartY>630</StartY>
+            <StartX>1056</StartX>
+            <StartY>615</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>5</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -1015,8 +1035,8 @@
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>2</StartingRoom>
-            <StartX>1371</StartX>
-            <StartY>395</StartY>
+            <StartX>1809</StartX>
+            <StartY>526</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -1589,6 +1609,36 @@ return
                   <FileName>C:\Users\Dawid\Desktop\Nowy obraz mapy bitowej.bmp</FileName>
                 </Source>
               </Sprite>
+              <Sprite Slot="69" Width="318" Height="238" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Downloads\Scena_2\Background\inventory\nocnik.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="70" Width="143" Height="86" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Downloads\Scena_2\Background\inventory\drewno_scena.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="71" Width="96" Height="175" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Downloads\Scena_2\Background\inventory\siekiera.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="72" Width="318" Height="238" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Downloads\Scena_2\Background\inventory\schodki.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="73" Width="198" Height="298" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Downloads\Scena_2\Background\inventory\dzwi otwarte.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="74" Width="101" Height="431" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Downloads\Scena_2\Background\inventory\dzwi zamkniete.png</FileName>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="druid">
@@ -1810,6 +1860,91 @@ return
                   <FileName>C:\Users\Dawid\Desktop\Nowy obraz mapy bitowej.bmp</FileName>
                 </Source>
               </Sprite>
+              <Sprite Slot="66" Width="1280" Height="107" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Downloads\Scena_2\Background\Menu\menu_dobry_rozmiar.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="67" Width="343" Height="474" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Downloads\Scena_2\Background\Menu\pergamin.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="68" Width="318" Height="238" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Downloads\Scena_2\Background\inventory\nocnik.png</FileName>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
+          <SpriteFolder Name="Fabien">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="53" Width="328" Height="516" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Fabian\Animacja chodu + stanie\Fabian_standing.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="54" Width="316" Height="385" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Fabian\Animacja chodu + stanie\Fabian_walk__001.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="55" Width="316" Height="385" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Fabian\Animacja chodu + stanie\Fabian_walk__002.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="56" Width="316" Height="385" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Fabian\Animacja chodu + stanie\Fabian_walk__003.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="57" Width="316" Height="385" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Fabian\Animacja chodu + stanie\Fabian_walk__004.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="58" Width="316" Height="385" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Fabian\Animacja chodu + stanie\Fabian_walk__005.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="59" Width="316" Height="385" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Fabian\Animacja chodu + stanie\Fabian_walk__006.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="60" Width="316" Height="385" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Fabian\Animacja chodu + stanie\Fabian_walk__007.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="61" Width="316" Height="385" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Fabian\Animacja chodu + stanie\Fabian_walk__008.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="62" Width="316" Height="385" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Fabian\Animacja chodu + stanie\Fabian_walk__009.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="63" Width="316" Height="385" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Fabian\Animacja chodu + stanie\Fabian_walk__010.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="64" Width="316" Height="385" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Fabian\Animacja chodu + stanie\Fabian_walk__011.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="65" Width="316" Height="385" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Fabian\Animacja chodu + stanie\Fabian_walk__012.png</FileName>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
         </SubFolders>
@@ -1835,70 +1970,84 @@ return
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>2000</Image>
+                    <Image>54</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>1</ID>
-                    <Image>2001</Image>
+                    <Image>55</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>2</ID>
-                    <Image>2002</Image>
+                    <Image>56</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>3</ID>
-                    <Image>2003</Image>
+                    <Image>57</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>4</ID>
-                    <Image>2004</Image>
+                    <Image>58</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>5</ID>
-                    <Image>2005</Image>
+                    <Image>59</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>6</ID>
-                    <Image>2006</Image>
+                    <Image>60</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>7</ID>
-                    <Image>2007</Image>
+                    <Image>61</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>8</ID>
-                    <Image>2008</Image>
+                    <Image>62</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>9</ID>
-                    <Image>2009</Image>
+                    <Image>63</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>10</ID>
+                    <Image>64</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>11</ID>
+                    <Image>65</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -1911,71 +2060,85 @@ return
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>2010</Image>
-                    <Flipped>False</Flipped>
+                    <Image>54</Image>
+                    <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>1</ID>
-                    <Image>2011</Image>
-                    <Flipped>False</Flipped>
+                    <Image>55</Image>
+                    <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>2</ID>
-                    <Image>2012</Image>
-                    <Flipped>False</Flipped>
+                    <Image>56</Image>
+                    <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>3</ID>
-                    <Image>2013</Image>
-                    <Flipped>False</Flipped>
+                    <Image>57</Image>
+                    <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>4</ID>
-                    <Image>2014</Image>
-                    <Flipped>False</Flipped>
+                    <Image>58</Image>
+                    <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>5</ID>
-                    <Image>2015</Image>
-                    <Flipped>False</Flipped>
+                    <Image>59</Image>
+                    <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>6</ID>
-                    <Image>2016</Image>
-                    <Flipped>False</Flipped>
+                    <Image>60</Image>
+                    <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>7</ID>
-                    <Image>2017</Image>
-                    <Flipped>False</Flipped>
+                    <Image>61</Image>
+                    <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>8</ID>
-                    <Image>2018</Image>
-                    <Flipped>False</Flipped>
+                    <Image>62</Image>
+                    <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>9</ID>
-                    <Image>2019</Image>
-                    <Flipped>False</Flipped>
+                    <Image>63</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>10</ID>
+                    <Image>64</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>11</ID>
+                    <Image>65</Image>
+                    <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
@@ -1987,70 +2150,84 @@ return
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>2020</Image>
+                    <Image>54</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>1</ID>
-                    <Image>2021</Image>
+                    <Image>55</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>2</ID>
-                    <Image>2022</Image>
+                    <Image>56</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>3</ID>
-                    <Image>2023</Image>
+                    <Image>57</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>4</ID>
-                    <Image>2024</Image>
+                    <Image>58</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>5</ID>
-                    <Image>2025</Image>
+                    <Image>59</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>6</ID>
-                    <Image>2026</Image>
+                    <Image>60</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>7</ID>
-                    <Image>2027</Image>
+                    <Image>61</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>8</ID>
-                    <Image>2028</Image>
+                    <Image>62</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>9</ID>
-                    <Image>2029</Image>
+                    <Image>63</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>10</ID>
+                    <Image>64</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>11</ID>
+                    <Image>65</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -2063,70 +2240,84 @@ return
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>2030</Image>
+                    <Image>54</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>1</ID>
-                    <Image>2031</Image>
+                    <Image>55</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>2</ID>
-                    <Image>2032</Image>
+                    <Image>56</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>3</ID>
-                    <Image>2033</Image>
+                    <Image>57</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>4</ID>
-                    <Image>2034</Image>
+                    <Image>58</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>5</ID>
-                    <Image>2035</Image>
+                    <Image>59</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>6</ID>
-                    <Image>2036</Image>
+                    <Image>60</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>7</ID>
-                    <Image>2037</Image>
+                    <Image>61</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>8</ID>
-                    <Image>2038</Image>
+                    <Image>62</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>9</ID>
-                    <Image>2039</Image>
+                    <Image>63</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>10</ID>
+                    <Image>64</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>11</ID>
+                    <Image>65</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
