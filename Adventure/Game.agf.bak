@@ -647,8 +647,8 @@
             </NormalGUI>
             <Controls>
               <GUIInventory>
-                <ItemWidth>40</ItemWidth>
-                <ItemHeight>22</ItemHeight>
+                <ItemWidth>89</ItemWidth>
+                <ItemHeight>107</ItemHeight>
                 <CharacterID>-1</CharacterID>
                 <Height>90</Height>
                 <Locked>False</Locked>
@@ -692,7 +692,7 @@
             <ID>1</ID>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
-            <PlayerStartsWithItem>True</PlayerStartsWithItem>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <CursorImage>44</CursorImage>
             <Image>44</Image>
             <Description>iLisc</Description>
@@ -805,6 +805,60 @@
             <Image>52</Image>
             <Description>Jogurt</Description>
             <Name>iJogurt</Name>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>8</ID>
+            <HotspotX>45</HotspotX>
+            <HotspotY>44</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>78</CursorImage>
+            <Image>78</Image>
+            <Description xml:space="preserve">New inventory item</Description>
+            <Name>iSiekiera</Name>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>9</ID>
+            <HotspotX>24</HotspotX>
+            <HotspotY>31</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>68</CursorImage>
+            <Image>68</Image>
+            <Description xml:space="preserve">New inventory item</Description>
+            <Name>iGarnek</Name>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>10</ID>
+            <HotspotX>38</HotspotX>
+            <HotspotY>43</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>79</CursorImage>
+            <Image>79</Image>
+            <Description xml:space="preserve">New inventory item</Description>
+            <Name>iDrewno</Name>
             <Properties />
             <Interactions>
               <Event Index="0" />
@@ -1639,6 +1693,21 @@ return
                   <FileName>C:\Users\Dawid\Downloads\Scena_2\Background\inventory\dzwi zamkniete.png</FileName>
                 </Source>
               </Sprite>
+              <Sprite Slot="75" Width="278" Height="238" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Downloads\Scena_2\Background\inventory\firanki'.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="76" Width="80" Height="75" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Downloads\Scena_2\Background\inventory\skrzynia_zamknieta.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="77" Width="80" Height="75" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Downloads\Scena_2\Background\inventory\skrzynia_otwarta.png</FileName>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="druid">
@@ -1870,9 +1939,19 @@ return
                   <FileName>C:\Users\Dawid\Downloads\Scena_2\Background\Menu\pergamin.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="68" Width="318" Height="238" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+              <Sprite Slot="78" Width="89" Height="107" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Dawid\Downloads\Scena_2\Background\inventory\nocnik.png</FileName>
+                  <FileName>C:\Users\Dawid\Downloads\Scena_2\Background\inventory\siekiera.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="68" Width="89" Height="107" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\Dawid\Downloads\Scena_2\Background\inventory\garnek_inv.bmp</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="79" Width="97" Height="107" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Downloads\Scena_2\Background\inventory\drewno_menu.png</FileName>
                 </Source>
               </Sprite>
             </Sprites>
