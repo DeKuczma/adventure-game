@@ -1630,6 +1630,11 @@ return
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
         </GlobalVariable>
+        <GlobalVariable>
+          <Name>stage</Name>
+          <Type>int</Type>
+          <DefaultValue>1</DefaultValue>
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
