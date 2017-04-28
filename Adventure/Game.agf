@@ -74,7 +74,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName>Adventure</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>0</AudioIndexer>
+      <AudioIndexer>11</AudioIndexer>
       <BuildTargets>Windows</BuildTargets>
     </Settings>
     <LipSync>
@@ -1117,7 +1117,7 @@
             <RealName>Fabien</RealName>
             <NormalView>1</NormalView>
             <SpeechView>1</SpeechView>
-            <IdleView>1</IdleView>
+            <IdleView>0</IdleView>
             <ThinkingView>1</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>1</StartingRoom>
@@ -1129,7 +1129,7 @@
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>2</AnimationDelay>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
+            <SpeechColor>65535</SpeechColor>
             <Solid>True</Solid>
             <Clickable>True</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -1169,7 +1169,7 @@
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>4</AnimationDelay>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
+            <SpeechColor>65535</SpeechColor>
             <Solid>True</Solid>
             <Clickable>True</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -1635,6 +1635,11 @@ return
           <Type>int</Type>
           <DefaultValue>1</DefaultValue>
         </GlobalVariable>
+        <GlobalVariable>
+          <Name>backgroundChannel</Name>
+          <Type>AudioChannel*</Type>
+          <DefaultValue />
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
@@ -1828,84 +1833,84 @@ return
               <SpriteFolder Name="left-walk">
                 <SubFolders />
                 <Sprites>
-                  <Sprite Slot="9" Width="215" Height="461" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="9" Width="180" Height="379" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\Dawid\Downloads\Left_walk\druid_left_walk__000.png</FileName>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Left_walk\druid_left_walk_000.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="10" Width="215" Height="461" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="10" Width="180" Height="379" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\Dawid\Downloads\Left_walk\druid_left_walk__001.png</FileName>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Left_walk\druid_left_walk_001.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="11" Width="215" Height="461" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="11" Width="180" Height="379" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\Dawid\Downloads\Left_walk\druid_left_walk__002.png</FileName>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Left_walk\druid_left_walk_002.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="12" Width="215" Height="461" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="12" Width="180" Height="379" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\Dawid\Downloads\Left_walk\druid_left_walk__003.png</FileName>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Left_walk\druid_left_walk_003.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="13" Width="215" Height="461" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="13" Width="180" Height="379" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\Dawid\Downloads\Left_walk\druid_left_walk__004.png</FileName>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Left_walk\druid_left_walk_004.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="14" Width="215" Height="461" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="14" Width="180" Height="379" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\Dawid\Downloads\Left_walk\druid_left_walk__005.png</FileName>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Left_walk\druid_left_walk_005.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="15" Width="215" Height="461" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="15" Width="180" Height="379" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\Dawid\Downloads\Left_walk\druid_left_walk__006.png</FileName>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Left_walk\druid_left_walk_006.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="16" Width="215" Height="461" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="16" Width="180" Height="377" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\Dawid\Downloads\Left_walk\druid_left_walk__007.png</FileName>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Left_walk\druid_left_walk_007.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="17" Width="215" Height="461" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="17" Width="180" Height="379" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\Dawid\Downloads\Left_walk\druid_left_walk__008.png</FileName>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Left_walk\druid_left_walk_008.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="18" Width="215" Height="461" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="18" Width="180" Height="379" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\Dawid\Downloads\Left_walk\druid_left_walk__009.png</FileName>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Left_walk\druid_left_walk_009.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="19" Width="215" Height="461" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="19" Width="180" Height="379" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\Dawid\Downloads\Left_walk\druid_left_walk__010.png</FileName>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Left_walk\druid_left_walk_010.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="20" Width="215" Height="461" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="20" Width="180" Height="379" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\Dawid\Downloads\Left_walk\druid_left_walk__011.png</FileName>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Left_walk\druid_left_walk_011.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="21" Width="215" Height="461" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="21" Width="180" Height="379" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\Dawid\Downloads\Left_walk\druid_left_walk__012.png</FileName>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Left_walk\druid_left_walk_012.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="22" Width="215" Height="461" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="22" Width="180" Height="379" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\Dawid\Downloads\Left_walk\druid_left_walk__013.png</FileName>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Left_walk\druid_left_walk_013.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="23" Width="215" Height="461" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="23" Width="180" Height="379" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\Dawid\Downloads\Left_walk\druid_left_walk__014.png</FileName>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Left_walk\druid_left_walk_014.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="24" Width="215" Height="461" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="24" Width="180" Height="379" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\Dawid\Downloads\Left_walk\druid_left_walk__015.png</FileName>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Left_walk\druid_left_walk_015.png</FileName>
                     </Source>
                   </Sprite>
                 </Sprites>
@@ -1913,84 +1918,84 @@ return
               <SpriteFolder Name="right-walk">
                 <SubFolders />
                 <Sprites>
-                  <Sprite Slot="26" Width="316" Height="494" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="26" Width="265" Height="403" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\Dawid\Downloads\drive-download-20170404T151726Z-001\Druid_right_walk__000.png</FileName>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Right_walk\druid_right_walk__000.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="27" Width="316" Height="494" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="27" Width="265" Height="403" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\Dawid\Downloads\drive-download-20170404T151726Z-001\Druid_right_walk__001.png</FileName>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Right_walk\druid_right_walk__001.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="28" Width="316" Height="494" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="28" Width="265" Height="403" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\Dawid\Downloads\drive-download-20170404T151726Z-001\Druid_right_walk__002.png</FileName>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Right_walk\druid_right_walk__002.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="29" Width="316" Height="494" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="29" Width="265" Height="403" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\Dawid\Downloads\drive-download-20170404T151726Z-001\Druid_right_walk__003.png</FileName>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Right_walk\druid_right_walk__003.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="30" Width="316" Height="494" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="30" Width="265" Height="403" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\Dawid\Downloads\drive-download-20170404T151726Z-001\Druid_right_walk__004.png</FileName>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Right_walk\druid_right_walk__004.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="31" Width="316" Height="494" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="31" Width="265" Height="403" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\Dawid\Downloads\drive-download-20170404T151726Z-001\Druid_right_walk__005.png</FileName>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Right_walk\druid_right_walk__005.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="32" Width="316" Height="494" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="32" Width="265" Height="403" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\Dawid\Downloads\drive-download-20170404T151726Z-001\Druid_right_walk__006.png</FileName>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Right_walk\druid_right_walk__006.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="33" Width="316" Height="494" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="33" Width="265" Height="403" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\Dawid\Downloads\drive-download-20170404T151726Z-001\Druid_right_walk__007.png</FileName>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Right_walk\druid_right_walk__007.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="34" Width="316" Height="494" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="34" Width="265" Height="403" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\Dawid\Downloads\drive-download-20170404T151726Z-001\Druid_right_walk__008.png</FileName>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Right_walk\druid_right_walk__008.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="35" Width="316" Height="494" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="35" Width="265" Height="403" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\Dawid\Downloads\drive-download-20170404T151726Z-001\Druid_right_walk__009.png</FileName>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Right_walk\druid_right_walk__009.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="36" Width="316" Height="494" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="36" Width="265" Height="403" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\Dawid\Downloads\drive-download-20170404T151726Z-001\Druid_right_walk__010.png</FileName>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Right_walk\druid_right_walk__010.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="37" Width="316" Height="494" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="37" Width="265" Height="403" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\Dawid\Downloads\drive-download-20170404T151726Z-001\Druid_right_walk__011.png</FileName>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Right_walk\druid_right_walk__011.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="38" Width="316" Height="494" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="38" Width="265" Height="403" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\Dawid\Downloads\drive-download-20170404T151726Z-001\Druid_right_walk__012.png</FileName>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Right_walk\druid_right_walk__012.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="39" Width="316" Height="494" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="39" Width="265" Height="403" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\Dawid\Downloads\drive-download-20170404T151726Z-001\Druid_right_walk__013.png</FileName>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Right_walk\druid_right_walk__013.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="40" Width="316" Height="494" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="40" Width="265" Height="403" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\Dawid\Downloads\drive-download-20170404T151726Z-001\Druid_right_walk__014.png</FileName>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Right_walk\druid_right_walk__014.png</FileName>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="41" Width="316" Height="494" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                  <Sprite Slot="41" Width="265" Height="403" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                     <Source>
-                      <FileName>C:\Users\Dawid\Downloads\drive-download-20170404T151726Z-001\Druid_right_walk__015.png</FileName>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Right_walk\druid_right_walk__015.png</FileName>
                     </Source>
                   </Sprite>
                 </Sprites>
@@ -2074,7 +2079,7 @@ return
             <Sprites>
               <Sprite Slot="53" Width="193" Height="393" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Dawid\Desktop\Fabian_standing.png</FileName>
+                  <FileName>C:\Users\Dawid\Downloads\Fabian_standing.png</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="54" Width="316" Height="385" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
@@ -2139,6 +2144,76 @@ return
               </Sprite>
             </Sprites>
           </SpriteFolder>
+          <SpriteFolder Name="Fabien fartuch">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="85" Width="193" Height="393" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Fabian\Animacja chodu+stanie FARTUCH\Fabian_fartuszek_stand__000.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="86" Width="316" Height="385" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Fabian\Animacja chodu+stanie FARTUCH\Fabian_fartuszek_walk__001.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="87" Width="316" Height="385" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Fabian\Animacja chodu+stanie FARTUCH\Fabian_fartuszek_walk__002.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="88" Width="316" Height="385" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Fabian\Animacja chodu+stanie FARTUCH\Fabian_fartuszek_walk__003.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="89" Width="316" Height="385" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Fabian\Animacja chodu+stanie FARTUCH\Fabian_fartuszek_walk__004.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="90" Width="316" Height="385" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Fabian\Animacja chodu+stanie FARTUCH\Fabian_fartuszek_walk__005.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="91" Width="316" Height="385" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Fabian\Animacja chodu+stanie FARTUCH\Fabian_fartuszek_walk__006.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="92" Width="316" Height="385" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Fabian\Animacja chodu+stanie FARTUCH\Fabian_walk__007.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="93" Width="316" Height="385" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Fabian\Animacja chodu+stanie FARTUCH\Fabian_walk__008.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="94" Width="316" Height="385" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Fabian\Animacja chodu+stanie FARTUCH\Fabian_walk__009.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="95" Width="316" Height="385" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Fabian\Animacja chodu+stanie FARTUCH\Fabian_walk__010.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="96" Width="316" Height="385" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Fabian\Animacja chodu+stanie FARTUCH\Fabian_walk__011.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="97" Width="316" Height="385" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Fabian\Animacja chodu+stanie FARTUCH\Fabian_walk__012.png</FileName>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
         </SubFolders>
         <Sprites>
           <Sprite Slot="0" Width="10" Height="6" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
@@ -2172,7 +2247,7 @@ return
                     <Image>54</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
-                    <Sound>0</Sound>
+                    <Sound>2</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>2</ID>
@@ -2269,7 +2344,7 @@ return
                     <Image>54</Image>
                     <Flipped>True</Flipped>
                     <Delay>0</Delay>
-                    <Sound>0</Sound>
+                    <Sound>2</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>2</ID>
@@ -2366,7 +2441,7 @@ return
                     <Image>54</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
-                    <Sound>0</Sound>
+                    <Sound>2</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>2</ID>
@@ -2463,7 +2538,7 @@ return
                     <Image>54</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
-                    <Sound>0</Sound>
+                    <Sound>2</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>2</ID>
@@ -3024,6 +3099,458 @@ return
               </Loop>
             </Loops>
           </View>
+          <View>
+            <ID>3</ID>
+            <Name>View3</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>85</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>86</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>87</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>88</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>89</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>90</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>6</ID>
+                    <Image>91</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>7</ID>
+                    <Image>92</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>8</ID>
+                    <Image>93</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>9</ID>
+                    <Image>94</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>10</ID>
+                    <Image>95</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>11</ID>
+                    <Image>96</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>12</ID>
+                    <Image>97</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>85</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>86</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>87</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>88</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>89</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>90</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>6</ID>
+                    <Image>91</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>7</ID>
+                    <Image>92</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>8</ID>
+                    <Image>93</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>9</ID>
+                    <Image>94</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>10</ID>
+                    <Image>95</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>11</ID>
+                    <Image>96</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>12</ID>
+                    <Image>97</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>85</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>86</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>87</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>88</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>89</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>90</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>6</ID>
+                    <Image>91</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>7</ID>
+                    <Image>92</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>8</ID>
+                    <Image>93</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>9</ID>
+                    <Image>94</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>10</ID>
+                    <Image>95</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>11</ID>
+                    <Image>96</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>12</ID>
+                    <Image>97</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>85</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>86</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>87</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>88</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>89</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>90</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>6</ID>
+                    <Image>91</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>7</ID>
+                    <Image>92</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>8</ID>
+                    <Image>93</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>9</ID>
+                    <Image>94</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>10</ID>
+                    <Image>95</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>11</ID>
+                    <Image>96</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>12</ID>
+                    <Image>97</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>4</ID>
+            <Name>View4</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>85</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>85</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>85</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>85</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
         </Views>
       </ViewFolder>
     </Views>
@@ -3094,7 +3621,56 @@ See KeyboardMovement.txt for details.
         <SubFolders>
           <AudioClipFolder Name="Music">
             <SubFolders />
-            <AudioClips />
+            <AudioClips>
+              <AudioClip>
+                <ScriptName>aScene_1___Beach_theme</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\muzyka\Muzyka i dzwieki\Scene 1 - Beach theme.ogg</SourceFileName>
+                <Index>8</Index>
+                <Type>2</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>OGG</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-04-25 09:53:10Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aScene_2_1___Viking_theme</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\muzyka\Muzyka i dzwieki\Scene 2.1 - Viking theme.ogg</SourceFileName>
+                <Index>9</Index>
+                <Type>2</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>OGG</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-04-25 09:53:00Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aScene_2_2___Slow_theme</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\muzyka\Muzyka i dzwieki\Scene 2.2 - Slow theme.ogg</SourceFileName>
+                <Index>10</Index>
+                <Type>2</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>OGG</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-04-25 09:53:04Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aWho_Likes_to_Party</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\muzyka\Muzyka i dzwieki\Who Likes to Party.mp3</SourceFileName>
+                <Index>11</Index>
+                <Type>2</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-04-11 04:44:14Z</FileLastModifiedDate>
+              </AudioClip>
+            </AudioClips>
             <AudioClipFolder>
               <DefaultVolume>100</DefaultVolume>
               <DefaultPriority>Inherit</DefaultPriority>
@@ -3105,7 +3681,80 @@ See KeyboardMovement.txt for details.
           </AudioClipFolder>
           <AudioClipFolder Name="Sounds">
             <SubFolders />
-            <AudioClips />
+            <AudioClips>
+              <AudioClip>
+                <ScriptName>aPick_up_item</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\muzyka\Muzyka i dzwieki\dzwieki\pick up item.wav</SourceFileName>
+                <Index>1</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>WAV</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>False</DefaultRepeat>
+                <FileLastModifiedDate>2017-04-25 10:08:36Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aWalking_on_wooden_floor</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\muzyka\Muzyka i dzwieki\dzwieki\walking on wooden floor.wav</SourceFileName>
+                <Index>2</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>WAV</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-04-25 09:57:46Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aDrop_item_into_the_soup</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\muzyka\Muzyka i dzwieki\dzwieki\drop item into the soup.wav</SourceFileName>
+                <Index>3</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>WAV</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-04-25 10:16:38Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aDoor_open</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\muzyka\Muzyka i dzwieki\dzwieki\door open.wav</SourceFileName>
+                <Index>4</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>WAV</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-04-25 10:19:54Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aDoor_close</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\muzyka\Muzyka i dzwieki\dzwieki\door close.wav</SourceFileName>
+                <Index>5</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>WAV</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-04-25 10:19:56Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aChopping_wood</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\muzyka\Muzyka i dzwieki\dzwieki\chopping wood 2.wav</SourceFileName>
+                <Index>7</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>WAV</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-04-25 10:48:52Z</FileLastModifiedDate>
+              </AudioClip>
+            </AudioClips>
             <AudioClipFolder>
               <DefaultVolume>100</DefaultVolume>
               <DefaultPriority>Inherit</DefaultPriority>
