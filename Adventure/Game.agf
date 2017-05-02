@@ -647,7 +647,7 @@
             </NormalGUI>
             <Controls>
               <GUIInventory>
-                <ItemWidth>89</ItemWidth>
+                <ItemWidth>88</ItemWidth>
                 <ItemHeight>107</ItemHeight>
                 <CharacterID>-1</CharacterID>
                 <Height>90</Height>
@@ -801,8 +801,8 @@
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
-            <CursorImage>52</CursorImage>
-            <Image>52</Image>
+            <CursorImage>101</CursorImage>
+            <Image>101</Image>
             <Description>Jogurt</Description>
             <Name>iJogurt</Name>
             <Properties />
@@ -891,8 +891,8 @@
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
-            <CursorImage>81</CursorImage>
-            <Image>81</Image>
+            <CursorImage>99</CursorImage>
+            <Image>99</Image>
             <Description>filizanka</Description>
             <Name>iFilizanka</Name>
             <Properties />
@@ -909,8 +909,8 @@
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
-            <CursorImage>82</CursorImage>
-            <Image>82</Image>
+            <CursorImage>100</CursorImage>
+            <Image>100</Image>
             <Description>zapalki</Description>
             <Name>iZapalki</Name>
             <Properties />
@@ -927,8 +927,8 @@
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
-            <CursorImage>80</CursorImage>
-            <Image>80</Image>
+            <CursorImage>98</CursorImage>
+            <Image>98</Image>
             <Description>chochla</Description>
             <Name>iChochla</Name>
             <Properties />
@@ -1116,9 +1116,9 @@
             <ScriptName>cFabien</ScriptName>
             <RealName>Fabien</RealName>
             <NormalView>1</NormalView>
-            <SpeechView>1</SpeechView>
+            <SpeechView>0</SpeechView>
             <IdleView>0</IdleView>
-            <ThinkingView>1</ThinkingView>
+            <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>1</StartingRoom>
             <StartX>1056</StartX>
@@ -1186,6 +1186,46 @@
               <Event Index="2" />
               <Event Index="3" />
               <Event Index="4">cDruid_AnyClick</Event>
+              <Event Index="5" />
+              <Event Index="6" />
+              <Event Index="7" />
+            </Interactions>
+          </Character>
+          <Character>
+            <ID>2</ID>
+            <ScriptName>cGod</ScriptName>
+            <RealName>Bog</RealName>
+            <NormalView>5</NormalView>
+            <SpeechView>5</SpeechView>
+            <IdleView>5</IdleView>
+            <ThinkingView>5</ThinkingView>
+            <BlinkingView>5</BlinkingView>
+            <StartingRoom>-1</StartingRoom>
+            <StartX>-100</StartX>
+            <StartY>286</StartY>
+            <UniformMovementSpeed>True</UniformMovementSpeed>
+            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeedX>0</MovementSpeedX>
+            <MovementSpeedY>0</MovementSpeedY>
+            <AnimationDelay>4</AnimationDelay>
+            <SpeechAnimationDelay>5</SpeechAnimationDelay>
+            <SpeechColor>65535</SpeechColor>
+            <Solid>True</Solid>
+            <Clickable>True</Clickable>
+            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <TurnBeforeWalking>True</TurnBeforeWalking>
+            <DiagonalLoops>True</DiagonalLoops>
+            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
               <Event Index="5" />
               <Event Index="6" />
               <Event Index="7" />
@@ -1640,6 +1680,16 @@ return
           <Type>AudioChannel*</Type>
           <DefaultValue />
         </GlobalVariable>
+        <GlobalVariable>
+          <Name>walkingSound</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>walkingChannel</Name>
+          <Type>AudioChannel*</Type>
+          <DefaultValue />
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
@@ -1721,34 +1771,34 @@ return
           <SpriteFolder Name="items">
             <SubFolders />
             <Sprites>
-              <Sprite Slot="7" Width="51" Height="39" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+              <Sprite Slot="7" Width="136" Height="91" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Dawid\Desktop\Nowy obraz mapy bitowej.bmp</FileName>
+                  <FileName>C:\Users\Dawid\Downloads\inventory\wloszczyzna_scena.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="42" Width="51" Height="39" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+              <Sprite Slot="42" Width="87" Height="103" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Dawid\Desktop\Nowy obraz mapy bitowej.bmp</FileName>
+                  <FileName>C:\Users\Dawid\Downloads\inventory\ogorek_scena.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="43" Width="51" Height="39" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+              <Sprite Slot="43" Width="110" Height="83" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Dawid\Desktop\Nowy obraz mapy bitowej.bmp</FileName>
+                  <FileName>C:\Users\Dawid\Downloads\inventory\lisc_laurowy_scena.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="45" Width="51" Height="39" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+              <Sprite Slot="45" Width="154" Height="91" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Dawid\Desktop\Nowy obraz mapy bitowej.bmp</FileName>
+                  <FileName>C:\Users\Dawid\Downloads\inventory\koperek_scena.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="47" Width="51" Height="39" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+              <Sprite Slot="47" Width="75" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Dawid\Desktop\Nowy obraz mapy bitowej.bmp</FileName>
+                  <FileName>C:\Users\Dawid\Downloads\inventory\kostka rosolowa_scena.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="49" Width="51" Height="39" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+              <Sprite Slot="49" Width="127" Height="104" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Dawid\Desktop\Nowy obraz mapy bitowej.bmp</FileName>
+                  <FileName>C:\Users\Dawid\Downloads\inventory\ziemniaki_scena.png</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="51" Width="51" Height="39" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
@@ -2000,6 +2050,46 @@ return
                   </Sprite>
                 </Sprites>
               </SpriteFolder>
+              <SpriteFolder Name="left-dance">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="144" Width="254" Height="425" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Left_dance\Druid_taniec_L_000.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="145" Width="254" Height="425" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Left_dance\Druid_taniec_L_001.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="146" Width="213" Height="386" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Left_dance\Druid_taniec_L_002.png</FileName>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
+              <SpriteFolder Name="right-dane">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="147" Width="254" Height="425" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Right_dance\Druid_taniec_R_000.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="148" Width="254" Height="425" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Right_dance\Druid_taniec_R_001.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="149" Width="254" Height="425" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Druid\Right_dance\Druid_taniec_R_002.png</FileName>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
             </SubFolders>
             <Sprites>
               <Sprite Slot="6" Width="2480" Height="3508" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
@@ -2012,34 +2102,34 @@ return
           <SpriteFolder Name="inventory">
             <SubFolders />
             <Sprites>
-              <Sprite Slot="8" Width="51" Height="39" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+              <Sprite Slot="8" Width="136" Height="91" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Dawid\Desktop\Nowy obraz mapy bitowej.bmp</FileName>
+                  <FileName>C:\Users\Dawid\Downloads\inventory\wloszczyzna_scena.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="25" Width="51" Height="39" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+              <Sprite Slot="25" Width="87" Height="103" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Dawid\Desktop\Nowy obraz mapy bitowej.bmp</FileName>
+                  <FileName>C:\Users\Dawid\Downloads\inventory\ogorek_scena.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="44" Width="51" Height="39" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+              <Sprite Slot="44" Width="110" Height="83" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Dawid\Desktop\Nowy obraz mapy bitowej.bmp</FileName>
+                  <FileName>C:\Users\Dawid\Downloads\inventory\lisc_laurowy_scena.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="46" Width="51" Height="39" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+              <Sprite Slot="46" Width="154" Height="91" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Dawid\Desktop\Nowy obraz mapy bitowej.bmp</FileName>
+                  <FileName>C:\Users\Dawid\Downloads\inventory\koperek_scena.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="48" Width="51" Height="39" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+              <Sprite Slot="48" Width="75" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Dawid\Desktop\Nowy obraz mapy bitowej.bmp</FileName>
+                  <FileName>C:\Users\Dawid\Downloads\inventory\kostka rosolowa_scena.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="50" Width="51" Height="39" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+              <Sprite Slot="50" Width="127" Height="104" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Dawid\Desktop\Nowy obraz mapy bitowej.bmp</FileName>
+                  <FileName>C:\Users\Dawid\Downloads\inventory\ziemniaki_scena.png</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="52" Width="51" Height="39" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
@@ -2057,19 +2147,39 @@ return
                   <FileName>C:\Users\Dawid\Downloads\Scena_2\Background\Menu\pergamin.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="78" Width="89" Height="107" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+              <Sprite Slot="78" Width="88" Height="98" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Dawid\Downloads\Scena_2\Background\inventory\siekiera.png</FileName>
+                  <FileName>C:\Users\Dawid\Desktop\Inventory_menu\siekiera_menu.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="68" Width="89" Height="107" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+              <Sprite Slot="68" Width="88" Height="98" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Dawid\Downloads\Scena_2\Background\inventory\garnek_inv.bmp</FileName>
+                  <FileName>C:\Users\Dawid\Desktop\Inventory_menu\garnek_menu.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="79" Width="97" Height="107" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+              <Sprite Slot="79" Width="88" Height="98" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Dawid\Downloads\Scena_2\Background\inventory\drewno_menu.png</FileName>
+                  <FileName>C:\Users\Dawid\Desktop\Inventory_menu\drewno_menu.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="98" Width="55" Height="55" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Inventory_menu\chochla_menu.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="99" Width="88" Height="98" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Inventory_menu\filizanka_menu.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="100" Width="88" Height="98" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Inventory_menu\zapalki_menu.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="101" Width="88" Height="98" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Inventory_menu\jogurt.png</FileName>
                 </Source>
               </Sprite>
             </Sprites>
@@ -2214,6 +2324,262 @@ return
               </Sprite>
             </Sprites>
           </SpriteFolder>
+          <SpriteFolder Name="kula">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="102" Width="267" Height="267" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\inventory\disco kula\kula_1.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="103" Width="267" Height="267" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\inventory\disco kula\kula_2.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="104" Width="267" Height="267" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\inventory\disco kula\kula_3.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="105" Width="267" Height="267" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\inventory\disco kula\kula_4.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="106" Width="267" Height="267" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\inventory\disco kula\kula_5.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="107" Width="267" Height="267" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\inventory\disco kula\kula_6.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="108" Width="267" Height="267" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\inventory\disco kula\kula_7.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="109" Width="267" Height="267" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\inventory\disco kula\kula_8.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="110" Width="267" Height="267" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\inventory\disco kula\kula_9.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="111" Width="267" Height="267" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\inventory\disco kula\kula_10.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="112" Width="267" Height="267" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\inventory\disco kula\kula_11.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="113" Width="267" Height="267" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\inventory\disco kula\kula_12.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="114" Width="267" Height="267" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\inventory\disco kula\kula_13.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="115" Width="267" Height="267" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\inventory\disco kula\kula_14.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="116" Width="267" Height="267" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\inventory\disco kula\kula_15.png</FileName>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
+          <SpriteFolder Name="bog">
+            <SubFolders>
+              <SpriteFolder Name="zadowolony">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="123" Width="316" Height="421" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Bog\Zadowolony\Odyn_zadowolony__000.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="124" Width="316" Height="421" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Bog\Zadowolony\Odyn_zadowolony__001.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="125" Width="316" Height="421" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Bog\Zadowolony\Odyn_zadowolony__002.png</FileName>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
+              <SpriteFolder Name="blysk">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="126" Width="316" Height="421" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Bog\swiatlo\light__000.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="127" Width="316" Height="421" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Bog\swiatlo\light__001.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="128" Width="316" Height="421" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Bog\swiatlo\light__002.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="129" Width="316" Height="421" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Bog\swiatlo\light__003.png</FileName>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
+              <SpriteFolder Name="zly">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="120" Width="316" Height="421" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Bog\Zly\Odyn_zly_000.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="121" Width="316" Height="421" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Bog\Zly\Odyn_zly_001.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="122" Width="316" Height="421" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Bog\Zly\Odyn_zly_002.png</FileName>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
+            </SubFolders>
+            <Sprites>
+              <Sprite Slot="117" Width="316" Height="421" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Bog\Zadowolony\Odyn_zadowolony__000.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="118" Width="316" Height="421" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Bog\Zadowolony\Odyn_zadowolony__001.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="119" Width="316" Height="421" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Bog\Zadowolony\Odyn_zadowolony__002.png</FileName>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
+          <SpriteFolder Name="fabien siekiera l">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="130" Width="262" Height="420" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Fabian\Fabian z siekiera\Fabian siekiera L\Fabian_siekiera_L__000.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="131" Width="262" Height="420" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Fabian\Fabian z siekiera\Fabian siekiera L\Fabian_siekiera_L__001.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="132" Width="262" Height="420" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Fabian\Fabian z siekiera\Fabian siekiera L\Fabian_siekiera_L__002.png</FileName>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
+          <SpriteFolder Name="fabien siekiera p">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="133" Width="341" Height="393" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Fabian\Fabian z siekiera\Fabian siekiera R\Fabian_siekiera_R__000.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="134" Width="341" Height="393" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Fabian\Fabian z siekiera\Fabian siekiera R\Fabian_siekiera_R__001.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="135" Width="341" Height="393" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Fabian\Fabian z siekiera\Fabian siekiera R\Fabian_siekiera_R__002.png</FileName>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
+          <SpriteFolder Name="fabien taniec L">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="136" Width="250" Height="398" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Fabian\Fabian_taniec_L\Fabian_taniec_L__000.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="137" Width="250" Height="398" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Fabian\Fabian_taniec_L\Fabian_taniec_L__001.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="138" Width="250" Height="398" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Fabian\Fabian_taniec_L\Fabian_taniec_L__002.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="139" Width="250" Height="398" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Fabian\Fabian_taniec_L\Fabian_taniec_L__003.png</FileName>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
+          <SpriteFolder Name="fabien taniec P">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="140" Width="250" Height="398" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Fabian\Fabian_taniec_R\Fabian_taniec_R__000.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="141" Width="250" Height="398" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Fabian\Fabian_taniec_R\Fabian_taniec_R__001.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="142" Width="250" Height="398" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Fabian\Fabian_taniec_R\Fabian_taniec_R__002.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="143" Width="250" Height="398" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Fabian\Fabian_taniec_R\Fabian_taniec_R__003.png</FileName>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
         </SubFolders>
         <Sprites>
           <Sprite Slot="0" Width="10" Height="6" ColorDepth="32" Resolution="LowRes" AlphaChannel="False" />
@@ -2247,7 +2613,7 @@ return
                     <Image>54</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
-                    <Sound>2</Sound>
+                    <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>2</ID>
@@ -2344,7 +2710,7 @@ return
                     <Image>54</Image>
                     <Flipped>True</Flipped>
                     <Delay>0</Delay>
-                    <Sound>2</Sound>
+                    <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>2</ID>
@@ -2441,7 +2807,7 @@ return
                     <Image>54</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
-                    <Sound>2</Sound>
+                    <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>2</ID>
@@ -2538,7 +2904,7 @@ return
                     <Image>54</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
-                    <Sound>2</Sound>
+                    <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>2</ID>
@@ -3543,6 +3909,375 @@ return
                   <ViewFrame>
                     <ID>0</ID>
                     <Image>85</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>5</ID>
+            <Name>bog_dobry</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>123</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>120</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>121</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>122</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames />
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>6</ID>
+            <Name>bog_zly</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>120</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>120</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>121</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>122</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>7</ID>
+            <Name>fabien_dance</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>136</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>136</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>137</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>138</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>139</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>8</ID>
+            <Name>druid_dance</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>144</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>144</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>145</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>146</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>9</ID>
+            <Name>disco</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>102</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>102</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>103</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>104</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>105</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>106</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>6</ID>
+                    <Image>107</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>7</ID>
+                    <Image>108</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>8</ID>
+                    <Image>109</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>9</ID>
+                    <Image>110</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>10</ID>
+                    <Image>111</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>11</ID>
+                    <Image>112</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>12</ID>
+                    <Image>113</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>13</ID>
+                    <Image>114</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>14</ID>
+                    <Image>115</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>15</ID>
+                    <Image>116</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>10</ID>
+            <Name>blysk</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>126</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>126</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>127</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>128</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>129</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
