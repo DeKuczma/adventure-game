@@ -1161,13 +1161,13 @@
             <ThinkingView>2</ThinkingView>
             <BlinkingView>2</BlinkingView>
             <StartingRoom>2</StartingRoom>
-            <StartX>1814</StartX>
-            <StartY>514</StartY>
+            <StartX>950</StartX>
+            <StartY>620</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
-            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeed>7</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
-            <AnimationDelay>4</AnimationDelay>
+            <AnimationDelay>2</AnimationDelay>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>65535</SpeechColor>
             <Solid>True</Solid>
@@ -1241,10 +1241,324 @@
         <Dialogs>
           <Dialog>
             <ID>0</ID>
-            <Name>dDialog0</Name>
+            <Name>dWelcomeText</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  
+Fabien: Przeby%em morza, l"dy i lasy, przywioz%em do druida ca%kiem niez%e zapasy
+Fabien: Sk%adniki na ofiar$ dla b'stwa zdoby%em, musz$ przyzna#, +e nie@le si$ narobi%em.
+Fabien: Spotka%em wied@m$, z%" kobiet" by%a, nie lada zadanie przede mn" postawi%a.
+Fabien: Na morzu te+ r'+nie po drodze bywa%o, zapewne dlatego +e przysn"# si$ zdarza%o.
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>1</ID>
+            <Name>dPodniesienie</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  
+Fabien: O, to szybciutko do plecaczka wrzuc$, mo+e do zupki jeszcze co* dorzuc$.
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>2</ID>
+            <Name>dNiePodnosic1</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  
+Fabien: Musia%em se mocno w g%ow$ przy%o+y#, skoro ten przedmiot do sakwy pr'bowa%em w%o+y#.
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>3</ID>
+            <Name>dChatka</Name>
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
+Fabien: Stoi sobie chatka, tutaj Druid mieszka, p$dz$ wi$c do niego, czeka m'j kole+ka.
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>4</ID>
+            <Name>dStatek</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Fabien: Okazuje si$, +e statek bez kapitana nie p%ynie, no a przynajmniej nie w t$ stron$ co winien.
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>5</ID>
+            <Name>dPlecak</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Fabien: Wszystko do plecaczka spakuje, b'stwo zupy posmakuje. 
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>6</ID>
+            <Name>dEndScena1</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Fabien: Grunt, +e sk%adniki wszystkie mam przy sobie, wi$c czym pr$dzej do druida wyruszam w drog$.
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>7</ID>
+            <Name>dRozmowa1</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Fabien: O wielki druidzie, co posiadasz wiedz$ tajemn", Daj tu sw" mord$, przywitaj si$ ze mn".
+Fabien: Przynios%em co trzeba by b'stwo przekupi#, By zmieni# pogod$ i zim$ szybko przywr'ci#.
+Fabien: Do dzie%a magiku, Jar Kretson niech wpada, Zasmakuje pysznej zupy od rudego dziada.
+Fabien: Gdzie masz przybory m'j dzielny magiku, Poszukajmy w tej izbie, masz tu klunkr'w bez liku.
+
+Druid: Widz$, +e podr'+ nie@le da%a ci si$ we znaki skoro wierszem gadasz. 
+Druid: Ale zabierzmy si$ do roboty, musimy znale@# kocio%ek, chochl$, fartuszek, drewno i zapa%ki. 
+Druid: Poszukaj u mnie w izbie, mnie strasznie boli g%owa, musz$ si$ napi#.
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>8</ID>
+            <Name>dSiekiera</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Druid: O, znalaz%e* siekier$! Tylko si$ nie potnij! 
+Druid: Gdzie* na pewno znajdzie si$ jakie* drzewo na opa%.
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>9</ID>
+            <Name>dPalenisko</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Fabien: Puste palenisko, czas zebra# rzeczy na ognisko. 
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>10</ID>
+            <Name>dBrakGarnka</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Druid: Mamy miejsce, ale wci"+ brakuje nam czego* w czym mo+na zrobi# zup$…
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>11</ID>
+            <Name>dDrzewa</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Druid: B%agam ci$, tylko si$ nie potnij...
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>12</ID>
+            <Name>dDrzwi</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Fabien: A dok"d te tajemne wrota wiod"? Czy czychaj" tam wied@my jak za wielk" wod"? 
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>13</ID>
+            <Name>dKibelek</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Fabien: Du+y nocnik, *wietna sprawa, wy*mienita b$dzie w nim dla b'stwa strawa!
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>14</ID>
+            <Name>dRabanie</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Fabien: P%askie drzewo, co+ to za dziwy! Szybko je por"bie, p'kim jeszcze +ywy!
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>15</ID>
+            <Name>dFiranki</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Fabien: Oh firanki, tego trzeba! Dobry fartuch spad% mi z nieba! 
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>16</ID>
+            <Name>dDruid</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Druid: Druidzie szalony, co* ty taki zasmucony? 
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>17</ID>
+            <Name>dFilizanka</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Fabien: Fili+anka tu jest stara, przyda si$ by nie pi# z gara.
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>18</ID>
+            <Name>dChochla</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Fabien: O, *wietnie! Przyda mi si$ ta %ycha, lepiej nie miesza# palcem bo w tej zupie wszystko zdycha.
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>19</ID>
+            <Name>dNiePodnosic2</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Fabien: Nie.
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>20</ID>
+            <Name>dWszystko</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Druid: Sk%adniki trzeba wrzuci# dok%adnie w takiej kolejno*ci jak na li*cie.
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>21</ID>
+            <Name>dZle</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Druid: W KOLEJNOSCI Z LISTY!
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>22</ID>
+            <Name>dWarzenie</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Fabien: Babka Agafia mnie zawsze uczy%a, by jogurtem zupka zabielona by%a. 
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>23</ID>
+            <Name>dTaniec</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Druid: Jar Kretson, Jar Kretson, b'stwo samozwa&cze
+Druid: Przyb"d@ do nas szybko, mamy +arcie, ta&ce.
+Druid: Ofiar$ sk%adamy z tych wszystkich sk%adnik'w,
+Druid: Co ich zdobycie da%o problem'w bez liku.
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>24</ID>
+            <Name>dPojawienie</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+God: Czego?
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>25</ID>
+            <Name>dNiedobre</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+God: Czy wy*cie powariowali??? Chcecie mnie otru#? Id@cie z tym do diab%a!
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>26</ID>
+            <Name>dJakPic</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+God: No chyba nie b$d$ pi% prosto z gara, co?
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>27</ID>
+            <Name>dEndScena2</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Fabien: Czy ten diabe% o kt'rym Kretson m'wi%, interes za zupk$ by tu ze mn" ubi%?
+Druid: Stary, nie za%amuj mnie… Chod@, napijemy si$. 
+Druid: Ju+ zacz"%em wierszem gada# przez Ciebie.
 return
 ]]></Script>
             <DialogOptions />
@@ -4363,8 +4677,8 @@ See KeyboardMovement.txt for details.
             <SubFolders />
             <AudioClips>
               <AudioClip>
-                <ScriptName>aScene_1___Beach_theme</ScriptName>
                 <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\muzyka\Muzyka i dzwieki\Scene 1 - Beach theme.ogg</SourceFileName>
+                <ScriptName>aScene_1___Beach_theme</ScriptName>
                 <Index>8</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -4375,8 +4689,8 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2017-04-25 09:53:10Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aScene_2_1___Viking_theme</ScriptName>
                 <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\muzyka\Muzyka i dzwieki\Scene 2.1 - Viking theme.ogg</SourceFileName>
+                <ScriptName>aScene_2_1___Viking_theme</ScriptName>
                 <Index>9</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -4387,8 +4701,8 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2017-04-25 09:53:00Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aScene_2_2___Slow_theme</ScriptName>
                 <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\muzyka\Muzyka i dzwieki\Scene 2.2 - Slow theme.ogg</SourceFileName>
+                <ScriptName>aScene_2_2___Slow_theme</ScriptName>
                 <Index>10</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -4399,8 +4713,8 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2017-04-25 09:53:04Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aWho_Likes_to_Party</ScriptName>
                 <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\muzyka\Muzyka i dzwieki\Who Likes to Party.mp3</SourceFileName>
+                <ScriptName>aWho_Likes_to_Party</ScriptName>
                 <Index>11</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -4423,8 +4737,8 @@ See KeyboardMovement.txt for details.
             <SubFolders />
             <AudioClips>
               <AudioClip>
-                <ScriptName>aPick_up_item</ScriptName>
                 <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\muzyka\Muzyka i dzwieki\dzwieki\pick up item.wav</SourceFileName>
+                <ScriptName>aPick_up_item</ScriptName>
                 <Index>1</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -4435,8 +4749,8 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2017-04-25 10:08:36Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aWalking_on_wooden_floor</ScriptName>
                 <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\muzyka\Muzyka i dzwieki\dzwieki\walking on wooden floor.wav</SourceFileName>
+                <ScriptName>aWalking_on_wooden_floor</ScriptName>
                 <Index>2</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -4447,8 +4761,8 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2017-04-25 09:57:46Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aDrop_item_into_the_soup</ScriptName>
                 <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\muzyka\Muzyka i dzwieki\dzwieki\drop item into the soup.wav</SourceFileName>
+                <ScriptName>aDrop_item_into_the_soup</ScriptName>
                 <Index>3</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -4459,8 +4773,8 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2017-04-25 10:16:38Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aDoor_open</ScriptName>
                 <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\muzyka\Muzyka i dzwieki\dzwieki\door open.wav</SourceFileName>
+                <ScriptName>aDoor_open</ScriptName>
                 <Index>4</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -4471,8 +4785,8 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2017-04-25 10:19:54Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aDoor_close</ScriptName>
                 <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\muzyka\Muzyka i dzwieki\dzwieki\door close.wav</SourceFileName>
+                <ScriptName>aDoor_close</ScriptName>
                 <Index>5</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -4483,8 +4797,8 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2017-04-25 10:19:56Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aChopping_wood</ScriptName>
                 <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\muzyka\Muzyka i dzwieki\dzwieki\chopping wood 2.wav</SourceFileName>
+                <ScriptName>aChopping_wood</ScriptName>
                 <Index>7</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -4516,24 +4830,24 @@ See KeyboardMovement.txt for details.
     </AudioClips>
     <AudioClipTypes>
       <AudioClipType>
-        <Name xml:space="preserve">Ambient Sound</Name>
         <TypeID>1</TypeID>
+        <Name xml:space="preserve">Ambient Sound</Name>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <Name>Music</Name>
         <TypeID>2</TypeID>
+        <Name>Music</Name>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>30</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <Name>Sound</Name>
         <TypeID>3</TypeID>
+        <Name>Sound</Name>
         <MaxChannels>0</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
