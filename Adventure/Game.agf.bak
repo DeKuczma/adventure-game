@@ -1121,7 +1121,7 @@
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>1</StartingRoom>
-            <StartX>1056</StartX>
+            <StartX>800</StartX>
             <StartY>615</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>7</MovementSpeed>
@@ -1161,7 +1161,7 @@
             <ThinkingView>2</ThinkingView>
             <BlinkingView>2</BlinkingView>
             <StartingRoom>2</StartingRoom>
-            <StartX>950</StartX>
+            <StartX>1348</StartX>
             <StartY>620</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>7</MovementSpeed>
@@ -1249,7 +1249,7 @@ Fabien: Przeby%em morza, l"dy i lasy, przywioz%em do druida ca%kiem niez%e zapas
 Fabien: Sk%adniki na ofiar$ dla b'stwa zdoby%em, musz$ przyzna#, +e nie@le si$ narobi%em.
 Fabien: Spotka%em wied@m$, z%" kobiet" by%a, nie lada zadanie przede mn" postawi%a.
 Fabien: Na morzu te+ r'+nie po drodze bywa%o, zapewne dlatego +e przysn"# si$ zdarza%o.
-return
+stop
 ]]></Script>
             <DialogOptions />
           </Dialog>
@@ -1260,7 +1260,7 @@ return
             <Script><![CDATA[// Dialog script file
 @S  
 Fabien: O, to szybciutko do plecaczka wrzuc$, mo+e do zupki jeszcze co* dorzuc$.
-return
+stop
 ]]></Script>
             <DialogOptions />
           </Dialog>
@@ -1271,7 +1271,7 @@ return
             <Script><![CDATA[// Dialog script file
 @S  
 Fabien: Musia%em se mocno w g%ow$ przy%o+y#, skoro ten przedmiot do sakwy pr'bowa%em w%o+y#.
-return
+stop
 ]]></Script>
             <DialogOptions />
           </Dialog>
@@ -1282,7 +1282,7 @@ return
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 Fabien: Stoi sobie chatka, tutaj Druid mieszka, p$dz$ wi$c do niego, czeka m'j kole+ka.
-return
+stop
 ]]></Script>
             <DialogOptions />
           </Dialog>
@@ -1293,8 +1293,7 @@ return
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 Fabien: Okazuje si$, +e statek bez kapitana nie p%ynie, no a przynajmniej nie w t$ stron$ co winien.
-return
-]]></Script>
+stop]]></Script>
             <DialogOptions />
           </Dialog>
           <Dialog>
@@ -1304,8 +1303,7 @@ return
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 Fabien: Wszystko do plecaczka spakuje, b'stwo zupy posmakuje. 
-return
-]]></Script>
+stop]]></Script>
             <DialogOptions />
           </Dialog>
           <Dialog>
@@ -1315,7 +1313,7 @@ return
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 Fabien: Grunt, +e sk%adniki wszystkie mam przy sobie, wi$c czym pr$dzej do druida wyruszam w drog$.
-return
+stop
 ]]></Script>
             <DialogOptions />
           </Dialog>
@@ -1333,7 +1331,7 @@ Fabien: Gdzie masz przybory m'j dzielny magiku, Poszukajmy w tej izbie, masz tu 
 Druid: Widz$, +e podr'+ nie@le da%a ci si$ we znaki skoro wierszem gadasz. 
 Druid: Ale zabierzmy si$ do roboty, musimy znale@# kocio%ek, chochl$, fartuszek, drewno i zapa%ki. 
 Druid: Poszukaj u mnie w izbie, mnie strasznie boli g%owa, musz$ si$ napi#.
-return
+stop
 ]]></Script>
             <DialogOptions />
           </Dialog>
@@ -1345,7 +1343,7 @@ return
 @S  // Dialog startup entry point
 Druid: O, znalaz%e* siekier$! Tylko si$ nie potnij! 
 Druid: Gdzie* na pewno znajdzie si$ jakie* drzewo na opa%.
-return
+stop
 ]]></Script>
             <DialogOptions />
           </Dialog>
@@ -1356,8 +1354,7 @@ return
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 Fabien: Puste palenisko, czas zebra# rzeczy na ognisko. 
-return
-]]></Script>
+stop]]></Script>
             <DialogOptions />
           </Dialog>
           <Dialog>
@@ -1367,7 +1364,7 @@ return
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 Druid: Mamy miejsce, ale wci"+ brakuje nam czego* w czym mo+na zrobi# zup$…
-return
+stop
 ]]></Script>
             <DialogOptions />
           </Dialog>
@@ -1378,7 +1375,7 @@ return
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 Druid: B%agam ci$, tylko si$ nie potnij...
-return
+stop
 ]]></Script>
             <DialogOptions />
           </Dialog>
@@ -1389,7 +1386,7 @@ return
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 Fabien: A dok"d te tajemne wrota wiod"? Czy czychaj" tam wied@my jak za wielk" wod"? 
-return
+stop
 ]]></Script>
             <DialogOptions />
           </Dialog>
@@ -1400,8 +1397,7 @@ return
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 Fabien: Du+y nocnik, *wietna sprawa, wy*mienita b$dzie w nim dla b'stwa strawa!
-return
-]]></Script>
+stop]]></Script>
             <DialogOptions />
           </Dialog>
           <Dialog>
@@ -1411,7 +1407,7 @@ return
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 Fabien: P%askie drzewo, co+ to za dziwy! Szybko je por"bie, p'kim jeszcze +ywy!
-return
+stop
 ]]></Script>
             <DialogOptions />
           </Dialog>
@@ -1422,7 +1418,7 @@ return
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 Fabien: Oh firanki, tego trzeba! Dobry fartuch spad% mi z nieba! 
-return
+stop
 ]]></Script>
             <DialogOptions />
           </Dialog>
@@ -1433,7 +1429,7 @@ return
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 Druid: Druidzie szalony, co* ty taki zasmucony? 
-return
+stop
 ]]></Script>
             <DialogOptions />
           </Dialog>
@@ -1444,7 +1440,7 @@ return
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 Fabien: Fili+anka tu jest stara, przyda si$ by nie pi# z gara.
-return
+stop
 ]]></Script>
             <DialogOptions />
           </Dialog>
@@ -1455,7 +1451,7 @@ return
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 Fabien: O, *wietnie! Przyda mi si$ ta %ycha, lepiej nie miesza# palcem bo w tej zupie wszystko zdycha.
-return
+stop
 ]]></Script>
             <DialogOptions />
           </Dialog>
@@ -1466,7 +1462,7 @@ return
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 Fabien: Nie.
-return
+stop
 ]]></Script>
             <DialogOptions />
           </Dialog>
@@ -1477,7 +1473,7 @@ return
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 Druid: Sk%adniki trzeba wrzuci# dok%adnie w takiej kolejno*ci jak na li*cie.
-return
+stop
 ]]></Script>
             <DialogOptions />
           </Dialog>
@@ -1488,7 +1484,7 @@ return
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 Druid: W KOLEJNOSCI Z LISTY!
-return
+stop
 ]]></Script>
             <DialogOptions />
           </Dialog>
@@ -1499,8 +1495,7 @@ return
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 Fabien: Babka Agafia mnie zawsze uczy%a, by jogurtem zupka zabielona by%a. 
-return
-]]></Script>
+stop]]></Script>
             <DialogOptions />
           </Dialog>
           <Dialog>
@@ -1513,7 +1508,7 @@ Druid: Jar Kretson, Jar Kretson, b'stwo samozwa&cze
 Druid: Przyb"d@ do nas szybko, mamy +arcie, ta&ce.
 Druid: Ofiar$ sk%adamy z tych wszystkich sk%adnik'w,
 Druid: Co ich zdobycie da%o problem'w bez liku.
-return
+stop
 ]]></Script>
             <DialogOptions />
           </Dialog>
@@ -1524,7 +1519,7 @@ return
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 God: Czego?
-return
+stop
 ]]></Script>
             <DialogOptions />
           </Dialog>
@@ -1535,7 +1530,7 @@ return
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 God: Czy wy*cie powariowali??? Chcecie mnie otru#? Id@cie z tym do diab%a!
-return
+stop
 ]]></Script>
             <DialogOptions />
           </Dialog>
@@ -1546,7 +1541,7 @@ return
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 God: No chyba nie b$d$ pi% prosto z gara, co?
-return
+stop
 ]]></Script>
             <DialogOptions />
           </Dialog>
@@ -1559,7 +1554,7 @@ return
 Fabien: Czy ten diabe% o kt'rym Kretson m'wi%, interes za zupk$ by tu ze mn" ubi%?
 Druid: Stary, nie za%amuj mnie… Chod@, napijemy si$. 
 Druid: Ju+ zacz"%em wierszem gada# przez Ciebie.
-return
+stop
 ]]></Script>
             <DialogOptions />
           </Dialog>
@@ -2481,9 +2476,9 @@ return
                   <FileName>C:\Users\Dawid\Desktop\Inventory_menu\drewno_menu.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="98" Width="55" Height="55" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+              <Sprite Slot="98" Width="88" Height="98" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Dawid\Desktop\Inventory_menu\chochla_menu.png</FileName>
+                  <FileName>C:\Users\Dawid\Desktop\Animacja postacie\Scena_2\Background\Inventory_menu\chochla_menu.png</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="99" Width="88" Height="98" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
@@ -4404,28 +4399,28 @@ return
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>144</Image>
+                    <Image>147</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>1</ID>
-                    <Image>144</Image>
+                    <Image>147</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>2</ID>
-                    <Image>145</Image>
+                    <Image>148</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>3</ID>
-                    <Image>146</Image>
+                    <Image>149</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -4683,7 +4678,7 @@ See KeyboardMovement.txt for details.
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
                 <FileType>OGG</FileType>
-                <DefaultVolume>-1</DefaultVolume>
+                <DefaultVolume>50</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
                 <FileLastModifiedDate>2017-04-25 09:53:10Z</FileLastModifiedDate>
@@ -4695,7 +4690,7 @@ See KeyboardMovement.txt for details.
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
                 <FileType>OGG</FileType>
-                <DefaultVolume>-1</DefaultVolume>
+                <DefaultVolume>50</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
                 <FileLastModifiedDate>2017-04-25 09:53:00Z</FileLastModifiedDate>
@@ -4707,7 +4702,7 @@ See KeyboardMovement.txt for details.
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
                 <FileType>OGG</FileType>
-                <DefaultVolume>-1</DefaultVolume>
+                <DefaultVolume>50</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
                 <FileLastModifiedDate>2017-04-25 09:53:04Z</FileLastModifiedDate>
