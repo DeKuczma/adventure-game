@@ -74,7 +74,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName>Adventure</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>14</AudioIndexer>
+      <AudioIndexer>15</AudioIndexer>
       <BuildTargets>Windows</BuildTargets>
     </Settings>
     <LipSync>
@@ -1129,7 +1129,7 @@
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>2</AnimationDelay>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>65535</SpeechColor>
+            <SpeechColor>2047</SpeechColor>
             <Solid>True</Solid>
             <Clickable>True</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -1169,7 +1169,7 @@
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>2</AnimationDelay>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>65535</SpeechColor>
+            <SpeechColor>2047</SpeechColor>
             <Solid>True</Solid>
             <Clickable>True</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -1209,7 +1209,7 @@
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>4</AnimationDelay>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>65535</SpeechColor>
+            <SpeechColor>2047</SpeechColor>
             <Solid>True</Solid>
             <Clickable>True</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -2004,6 +2004,11 @@ stop
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
         </GlobalVariable>
+        <GlobalVariable>
+          <Name>test</Name>
+          <Type>AudioChannel*</Type>
+          <DefaultValue />
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
@@ -2416,34 +2421,34 @@ stop
           <SpriteFolder Name="inventory">
             <SubFolders />
             <Sprites>
-              <Sprite Slot="8" Width="136" Height="91" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+              <Sprite Slot="8" Width="55" Height="55" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Dawid\Downloads\inventory\wloszczyzna_scena.png</FileName>
+                  <FileName>C:\Users\Dawid\Downloads\Scena_1\invenotry_menu\wloszczyzna_menu.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="25" Width="87" Height="103" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+              <Sprite Slot="25" Width="55" Height="55" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Dawid\Downloads\inventory\ogorek_scena.png</FileName>
+                  <FileName>C:\Users\Dawid\Downloads\Scena_1\invenotry_menu\ogorek_menu.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="44" Width="110" Height="83" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+              <Sprite Slot="44" Width="55" Height="55" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Dawid\Downloads\inventory\lisc_laurowy_scena.png</FileName>
+                  <FileName>C:\Users\Dawid\Downloads\Scena_1\invenotry_menu\lisc_laurowy_menu.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="46" Width="154" Height="91" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+              <Sprite Slot="46" Width="55" Height="55" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Dawid\Downloads\inventory\koperek_scena.png</FileName>
+                  <FileName>C:\Users\Dawid\Downloads\Scena_1\invenotry_menu\koperek_menu.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="48" Width="75" Height="53" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+              <Sprite Slot="48" Width="55" Height="55" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Dawid\Downloads\inventory\kostka rosolowa_scena.png</FileName>
+                  <FileName>C:\Users\Dawid\Downloads\Scena_1\invenotry_menu\kostka_rosolowa_menu.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="50" Width="127" Height="104" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+              <Sprite Slot="50" Width="55" Height="55" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Dawid\Downloads\inventory\ziemniaki_scena.png</FileName>
+                  <FileName>C:\Users\Dawid\Downloads\Scena_1\invenotry_menu\ziemniaki_menu.png</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="52" Width="51" Height="39" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
@@ -4756,18 +4761,6 @@ See KeyboardMovement.txt for details.
                 <FileLastModifiedDate>2017-04-25 09:57:46Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\muzyka\Muzyka i dzwieki\dzwieki\drop item into the soup.wav</SourceFileName>
-                <ScriptName>aDrop_item_into_the_soup</ScriptName>
-                <Index>3</Index>
-                <Type>3</Type>
-                <BundlingType>InGameEXE</BundlingType>
-                <FileType>WAV</FileType>
-                <DefaultVolume>-1</DefaultVolume>
-                <DefaultPriority>Inherit</DefaultPriority>
-                <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2017-04-25 10:16:38Z</FileLastModifiedDate>
-              </AudioClip>
-              <AudioClip>
                 <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\muzyka\Muzyka i dzwieki\dzwieki\door open.wav</SourceFileName>
                 <ScriptName>aDoor_open</ScriptName>
                 <Index>4</Index>
@@ -4838,6 +4831,18 @@ See KeyboardMovement.txt for details.
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
                 <FileLastModifiedDate>2017-04-25 10:04:14Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <SourceFileName xml:space="preserve">C:\Users\Dawid\Downloads\dzwieki\drop item into the soup.wav</SourceFileName>
+                <ScriptName>aDrop_item_into_the_soup</ScriptName>
+                <Index>15</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>WAV</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-04-25 10:16:38Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
