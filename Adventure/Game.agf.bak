@@ -1115,7 +1115,7 @@
             <ID>0</ID>
             <ScriptName>cFabien</ScriptName>
             <RealName>Fabien</RealName>
-            <NormalView>1</NormalView>
+            <NormalView>3</NormalView>
             <SpeechView>0</SpeechView>
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
@@ -2008,6 +2008,11 @@ stop
           <Name>test</Name>
           <Type>AudioChannel*</Type>
           <DefaultValue />
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>fabien_active</Name>
+          <Type>bool</Type>
+          <DefaultValue>true</DefaultValue>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
@@ -4086,91 +4091,91 @@ stop
                   <ViewFrame>
                     <ID>0</ID>
                     <Image>85</Image>
-                    <Flipped>False</Flipped>
+                    <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>1</ID>
                     <Image>86</Image>
-                    <Flipped>False</Flipped>
+                    <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>2</ID>
                     <Image>87</Image>
-                    <Flipped>False</Flipped>
+                    <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>3</ID>
                     <Image>88</Image>
-                    <Flipped>False</Flipped>
+                    <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>4</ID>
                     <Image>89</Image>
-                    <Flipped>False</Flipped>
+                    <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>5</ID>
                     <Image>90</Image>
-                    <Flipped>False</Flipped>
+                    <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>6</ID>
                     <Image>91</Image>
-                    <Flipped>False</Flipped>
+                    <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>7</ID>
                     <Image>92</Image>
-                    <Flipped>False</Flipped>
+                    <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>8</ID>
                     <Image>93</Image>
-                    <Flipped>False</Flipped>
+                    <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>9</ID>
                     <Image>94</Image>
-                    <Flipped>False</Flipped>
+                    <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>10</ID>
                     <Image>95</Image>
-                    <Flipped>False</Flipped>
+                    <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>11</ID>
                     <Image>96</Image>
-                    <Flipped>False</Flipped>
+                    <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>12</ID>
                     <Image>97</Image>
-                    <Flipped>False</Flipped>
+                    <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
@@ -4598,6 +4603,400 @@ stop
                     <ID>4</ID>
                     <Image>129</Image>
                     <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>11</ID>
+            <Name>chodzic</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>85</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>86</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>87</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>88</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>89</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>90</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>6</ID>
+                    <Image>91</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>7</ID>
+                    <Image>92</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>8</ID>
+                    <Image>93</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>9</ID>
+                    <Image>94</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>10</ID>
+                    <Image>95</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>11</ID>
+                    <Image>96</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>12</ID>
+                    <Image>97</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>85</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>86</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>87</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>88</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>89</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>90</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>6</ID>
+                    <Image>91</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>7</ID>
+                    <Image>92</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>8</ID>
+                    <Image>93</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>9</ID>
+                    <Image>94</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>10</ID>
+                    <Image>95</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>11</ID>
+                    <Image>96</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>12</ID>
+                    <Image>97</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>85</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>86</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>87</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>88</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>89</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>90</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>6</ID>
+                    <Image>91</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>7</ID>
+                    <Image>92</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>8</ID>
+                    <Image>93</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>9</ID>
+                    <Image>94</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>10</ID>
+                    <Image>95</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>11</ID>
+                    <Image>96</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>12</ID>
+                    <Image>97</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>85</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>86</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>87</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>88</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>89</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>90</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>6</ID>
+                    <Image>91</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>7</ID>
+                    <Image>92</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>8</ID>
+                    <Image>93</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>9</ID>
+                    <Image>94</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>10</ID>
+                    <Image>95</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>11</ID>
+                    <Image>96</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>12</ID>
+                    <Image>97</Image>
+                    <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
