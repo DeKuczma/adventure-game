@@ -74,7 +74,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName>Adventure</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>15</AudioIndexer>
+      <AudioIndexer>24</AudioIndexer>
       <BuildTargets>Windows</BuildTargets>
     </Settings>
     <LipSync>
@@ -5136,112 +5136,112 @@ See KeyboardMovement.txt for details.
             <SubFolders />
             <AudioClips>
               <AudioClip>
-                <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\muzyka\Muzyka i dzwieki\dzwieki\pick up item.wav</SourceFileName>
+                <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\Muzyka i dzwieki\dzwieki - mp3\pick up item.mp3</SourceFileName>
                 <ScriptName>aPick_up_item</ScriptName>
-                <Index>1</Index>
+                <Index>16</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
-                <FileType>WAV</FileType>
-                <DefaultVolume>-1</DefaultVolume>
-                <DefaultPriority>Inherit</DefaultPriority>
-                <DefaultRepeat>False</DefaultRepeat>
-                <FileLastModifiedDate>2017-04-25 10:08:36Z</FileLastModifiedDate>
-              </AudioClip>
-              <AudioClip>
-                <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\muzyka\Muzyka i dzwieki\dzwieki\walking on wooden floor.wav</SourceFileName>
-                <ScriptName>aWalking_on_wooden_floor</ScriptName>
-                <Index>2</Index>
-                <Type>3</Type>
-                <BundlingType>InGameEXE</BundlingType>
-                <FileType>WAV</FileType>
+                <FileType>MP3</FileType>
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2017-04-25 09:57:46Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2017-05-06 09:33:30Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\muzyka\Muzyka i dzwieki\dzwieki\door open.wav</SourceFileName>
-                <ScriptName>aDoor_open</ScriptName>
-                <Index>4</Index>
-                <Type>3</Type>
-                <BundlingType>InGameEXE</BundlingType>
-                <FileType>WAV</FileType>
-                <DefaultVolume>-1</DefaultVolume>
-                <DefaultPriority>Inherit</DefaultPriority>
-                <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2017-04-25 10:19:54Z</FileLastModifiedDate>
-              </AudioClip>
-              <AudioClip>
-                <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\muzyka\Muzyka i dzwieki\dzwieki\door close.wav</SourceFileName>
-                <ScriptName>aDoor_close</ScriptName>
-                <Index>5</Index>
-                <Type>3</Type>
-                <BundlingType>InGameEXE</BundlingType>
-                <FileType>WAV</FileType>
-                <DefaultVolume>-1</DefaultVolume>
-                <DefaultPriority>Inherit</DefaultPriority>
-                <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2017-04-25 10:19:56Z</FileLastModifiedDate>
-              </AudioClip>
-              <AudioClip>
-                <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\muzyka\Muzyka i dzwieki\dzwieki\chopping wood 2.wav</SourceFileName>
-                <ScriptName>aChopping_wood</ScriptName>
-                <Index>7</Index>
-                <Type>3</Type>
-                <BundlingType>InGameEXE</BundlingType>
-                <FileType>WAV</FileType>
-                <DefaultVolume>-1</DefaultVolume>
-                <DefaultPriority>Inherit</DefaultPriority>
-                <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2017-04-25 10:48:52Z</FileLastModifiedDate>
-              </AudioClip>
-              <AudioClip>
-                <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\Muzyka i dzwieki\dzwieki\click on non-interactive item.wav</SourceFileName>
-                <ScriptName>aClick_on_non_interactive_item</ScriptName>
-                <Index>12</Index>
-                <Type>3</Type>
-                <BundlingType>InGameEXE</BundlingType>
-                <FileType>WAV</FileType>
-                <DefaultVolume>-1</DefaultVolume>
-                <DefaultPriority>Inherit</DefaultPriority>
-                <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2017-04-25 10:12:22Z</FileLastModifiedDate>
-              </AudioClip>
-              <AudioClip>
-                <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\Muzyka i dzwieki\dzwieki\god sound.wav</SourceFileName>
-                <ScriptName>aGod_sound</ScriptName>
-                <Index>13</Index>
-                <Type>3</Type>
-                <BundlingType>InGameEXE</BundlingType>
-                <FileType>WAV</FileType>
-                <DefaultVolume>-1</DefaultVolume>
-                <DefaultPriority>Inherit</DefaultPriority>
-                <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2017-05-03 02:22:16Z</FileLastModifiedDate>
-              </AudioClip>
-              <AudioClip>
-                <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\Muzyka i dzwieki\dzwieki\walking in snow.wav</SourceFileName>
-                <ScriptName>aWalking_in_snow</ScriptName>
-                <Index>14</Index>
-                <Type>3</Type>
-                <BundlingType>InGameEXE</BundlingType>
-                <FileType>WAV</FileType>
-                <DefaultVolume>-1</DefaultVolume>
-                <DefaultPriority>Inherit</DefaultPriority>
-                <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2017-04-25 10:04:14Z</FileLastModifiedDate>
-              </AudioClip>
-              <AudioClip>
-                <SourceFileName xml:space="preserve">C:\Users\Dawid\Downloads\dzwieki\drop item into the soup.wav</SourceFileName>
+                <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\Muzyka i dzwieki\dzwieki - mp3\drop item into the soup.mp3</SourceFileName>
                 <ScriptName>aDrop_item_into_the_soup</ScriptName>
-                <Index>15</Index>
+                <Index>17</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
-                <FileType>WAV</FileType>
+                <FileType>MP3</FileType>
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2017-04-25 10:16:38Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2017-05-06 09:33:30Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\Muzyka i dzwieki\dzwieki - mp3\walking on wooden floor.mp3</SourceFileName>
+                <ScriptName>aWalking_on_wooden_floor</ScriptName>
+                <Index>18</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-05-06 09:33:30Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\Muzyka i dzwieki\dzwieki - mp3\walking in snow.mp3</SourceFileName>
+                <ScriptName>aWalking_in_snow</ScriptName>
+                <Index>19</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-05-06 09:33:30Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\Muzyka i dzwieki\dzwieki - mp3\god sound.mp3</SourceFileName>
+                <ScriptName>aGod_sound</ScriptName>
+                <Index>20</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-05-06 09:33:30Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\Muzyka i dzwieki\dzwieki - mp3\click on non-interactive item.mp3</SourceFileName>
+                <ScriptName>aClick_on_non_interactive_item</ScriptName>
+                <Index>21</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-05-06 09:33:30Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\Muzyka i dzwieki\dzwieki - mp3\chopping wood.mp3</SourceFileName>
+                <ScriptName>aChopping_wood</ScriptName>
+                <Index>22</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-05-06 09:33:28Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\Muzyka i dzwieki\dzwieki - mp3\door close.mp3</SourceFileName>
+                <ScriptName>aDoor_close</ScriptName>
+                <Index>23</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-05-06 09:33:30Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\Muzyka i dzwieki\dzwieki - mp3\door open.mp3</SourceFileName>
+                <ScriptName>aDoor_open</ScriptName>
+                <Index>24</Index>
+                <Type>3</Type>
+                <BundlingType>InGameEXE</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2017-05-06 09:33:30Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
