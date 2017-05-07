@@ -1115,7 +1115,7 @@
             <ID>0</ID>
             <ScriptName>cFabien</ScriptName>
             <RealName>Fabien</RealName>
-            <NormalView>3</NormalView>
+            <NormalView>1</NormalView>
             <SpeechView>0</SpeechView>
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
