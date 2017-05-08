@@ -1121,8 +1121,8 @@
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>1</StartingRoom>
-            <StartX>800</StartX>
-            <StartY>615</StartY>
+            <StartX>1000</StartX>
+            <StartY>620</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>7</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -1245,10 +1245,11 @@
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  
-Fabien: Przeby%em morza, l"dy i lasy, przywioz%em do druida ca%kiem niez%e zapasy
-Fabien: Sk%adniki na ofiar$ dla b'stwa zdoby%em, musz$ przyzna#, +e nie@le si$ narobi%em.
-Fabien: Spotka%em wied@m$, z%" kobiet" by%a, nie lada zadanie przede mn" postawi%a.
-Fabien: Na morzu te+ r'+nie po drodze bywa%o, zapewne dlatego +e przysn"# si$ zdarza%o.
+Fabien: Przeby=em morza, l"dy i lasy, przywioz=em do druida ca=kiem niez=e zapasy,
+Fabien: Spotka=em wied@m$, z=" kobiet" by=a, nie lada zadanie przede mn" postawi=a.
+Fabien: Na morzu te+ r'+nie po drodze bywa=o, zapewne dlatego +e przysn"# si$ zdarza=o. 
+Fabien: Tak ucieszy=em si$ na widok ziemi, +e wypad=o wszystko z mojej wielkiej kieszeni. 
+Fabien: Pozbiera# sk=adniki czym pr$dzej musz$, zanim w podr'+ do Druida wyrusz$. 
 stop
 ]]></Script>
             <DialogOptions />
@@ -1270,7 +1271,7 @@ stop
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  
-Fabien: Musia%em se mocno w g%ow$ przy%o+y#, skoro ten przedmiot do sakwy pr'bowa%em w%o+y#.
+Fabien: Musia=em se mocno w g=ow$ przy=o+y#, skoro ten przedmiot do sakwy pr'bowa=em w=o+y#.
 stop
 ]]></Script>
             <DialogOptions />
@@ -1292,7 +1293,7 @@ stop
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-Fabien: Okazuje si$, +e statek bez kapitana nie p%ynie, no a przynajmniej nie w t$ stron$ co winien.
+Fabien: Okazuje si$, +e statek bez kapitana nie p=ynie, no a przynajmniej nie w t$ stron$ co winien.
 stop]]></Script>
             <DialogOptions />
           </Dialog>
@@ -1324,13 +1325,13 @@ stop
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 Fabien: O wielki druidzie, co posiadasz wiedz$ tajemn", Daj tu sw" mord$, przywitaj si$ ze mn".
-Fabien: Przynios%em co trzeba by b'stwo przekupi#, By zmieni# pogod$ i zim$ szybko przywr'ci#.
-Fabien: Do dzie%a magiku, Jar Kretson niech wpada, Zasmakuje pysznej zupy od rudego dziada.
+Fabien: Przynios=em co trzeba by b'stwo przekupi#, By zmieni# pogod$ i zim$ szybko przywr'ci#.
+Fabien: Do dzie=a magiku, Jar Kretson niech wpada, Zasmakuje pysznej zupy od rudego dziada.
 Fabien: Gdzie masz przybory m'j dzielny magiku, Poszukajmy w tej izbie, masz tu klunkr'w bez liku.
 
-Druid: Widz$, +e podr'+ nie@le da%a ci si$ we znaki skoro wierszem gadasz. 
-Druid: Ale zabierzmy si$ do roboty, musimy znale@# kocio%ek, chochl$, fartuszek, drewno i zapa%ki. 
-Druid: Poszukaj u mnie w izbie, mnie strasznie boli g%owa, musz$ si$ napi#.
+Druid: Widz$, +e podr'+ nie@le da=a ci si$ we znaki skoro wierszem gadasz. 
+Druid: Ale zabierzmy si$ do roboty, musimy znale@# kocio=ek, chochl$, fartuszek, drewno i zapa=ki. 
+Druid: Poszukaj u mnie w izbie, mnie strasznie boli g=owa, musz$ si$ napi#.
 stop
 ]]></Script>
             <DialogOptions />
@@ -1341,8 +1342,8 @@ stop
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-Druid: O, znalaz%e* siekier$! Tylko si$ nie potnij! 
-Druid: Gdzie* na pewno znajdzie si$ jakie* drzewo na opa%.
+Druid: O, znalaz=e* siekier$! Tylko si$ nie potnij! 
+Druid: Gdzie* na pewno znajdzie si$ jakie* drzewo na opa=.
 stop
 ]]></Script>
             <DialogOptions />
@@ -1374,7 +1375,7 @@ stop
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-Druid: B%agam ci$, tylko si$ nie potnij...
+Druid: B=agam ci$, tylko si$ nie potnij...
 stop
 ]]></Script>
             <DialogOptions />
@@ -1406,7 +1407,7 @@ stop]]></Script>
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-Fabien: P%askie drzewo, co+ to za dziwy! Szybko je por"bie, p'kim jeszcze +ywy!
+Fabien: P=askie drzewo, co+ to za dziwy! Szybko je por"bie, p'kim jeszcze +ywy!
 stop
 ]]></Script>
             <DialogOptions />
@@ -1417,7 +1418,7 @@ stop
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-Fabien: Oh firanki, tego trzeba! Dobry fartuch spad% mi z nieba! 
+Fabien: Oh firanki, tego trzeba! Dobry fartuch spad= mi z nieba! 
 stop
 ]]></Script>
             <DialogOptions />
@@ -1450,7 +1451,7 @@ stop
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-Fabien: O, *wietnie! Przyda mi si$ ta %ycha, lepiej nie miesza# palcem bo w tej zupie wszystko zdycha.
+Fabien: O, *wietnie! Przyda mi si$ ta =ycha, lepiej nie miesza# palcem bo w tej zupie wszystko zdycha.
 stop
 ]]></Script>
             <DialogOptions />
@@ -1472,7 +1473,7 @@ stop
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-Druid: Sk%adniki trzeba wrzuci# dok%adnie w takiej kolejno*ci jak na li*cie.
+Druid: Sk=adniki trzeba wrzuci# dok=adnie w takiej kolejno*ci jak na li*cie.
 stop
 ]]></Script>
             <DialogOptions />
@@ -1494,7 +1495,7 @@ stop
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-Fabien: Babka Agafia mnie zawsze uczy%a, by jogurtem zupka zabielona by%a. 
+Fabien: Babka Agafia mnie zawsze uczy=a, by jogurtem zupka zabielona by=a. 
 stop]]></Script>
             <DialogOptions />
           </Dialog>
@@ -1506,8 +1507,8 @@ stop]]></Script>
 @S  // Dialog startup entry point
 Druid: Jar Kretson, Jar Kretson, b'stwo samozwa&cze
 Druid: Przyb"d@ do nas szybko, mamy +arcie, ta&ce.
-Druid: Ofiar$ sk%adamy z tych wszystkich sk%adnik'w,
-Druid: Co ich zdobycie da%o problem'w bez liku.
+Druid: Ofiar$ sk=adamy z tych wszystkich sk=adnik'w,
+Druid: Co ich zdobycie da=o problem'w bez liku.
 stop
 ]]></Script>
             <DialogOptions />
@@ -1529,7 +1530,7 @@ stop
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-God: Czy wy*cie powariowali??? Chcecie mnie otru#? Id@cie z tym do diab%a!
+God: Czy wy*cie powariowali??? Chcecie mnie otru#? Id@cie z tym do diab=a!
 stop
 ]]></Script>
             <DialogOptions />
@@ -1540,7 +1541,7 @@ stop
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-God: No chyba nie b$d$ pi% prosto z gara, co?
+God: No chyba nie b$d$ pi= prosto z gara, co?
 stop
 ]]></Script>
             <DialogOptions />
@@ -1551,10 +1552,98 @@ stop
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-Fabien: Czy ten diabe% o kt'rym Kretson m'wi%, interes za zupk$ by tu ze mn" ubi%?
-Druid: Stary, nie za%amuj mnie… Chod@, napijemy si$. 
-Druid: Ju+ zacz"%em wierszem gada# przez Ciebie.
+Fabien: Czy ten diabe= o kt'rym Kretson m'wi=, interes za zupk$ by tu ze mn" ubi=?
+Druid: Stary, nie za=amuj mnie… Chod@, napijemy si$. 
+Druid: Ju+ zacz"=em wierszem gada# przez Ciebie.
 stop
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>28</ID>
+            <Name>dWloszczyzna</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Fabien: W=oszczyzn$ do plecaczka wrzuc$, do zupki j" dorzuc$.
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>29</ID>
+            <Name>dOgorki</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Fabien: Og'rasy te+ musz$ do plecaczka wrzuci#, +eby zupy nie zadusi#.
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>30</ID>
+            <Name>dKoperek</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Fabien: Koperek na ziemi le+y, nikt mi w to nie uwierzy, wi$c szybko do plecaczka go wrzuc$, do zupki go dorzuc$.
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>31</ID>
+            <Name>dLisc</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Fabien: Li*# laurowy do plecaczka wrzuc$, mo+e do zupki jeszcze co* dorzuc$.
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>32</ID>
+            <Name>dKostka</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Fabien: Kostka roso=owa te+ si$ wysypa=a, to j" w=o+$ do plecaczka, by zupka si$ uda=a. 
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>33</ID>
+            <Name>dZiemniaki</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Fabien: Ziemniaki rozwalone te+ pozbieram, przecie+ do gotowania zupy si$ zabieram.
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>34</ID>
+            <Name>dChatkaFail</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Fabien: Do Druida i*# nie pora, nie wrzuci=em wszystkiego do wora. 
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>35</ID>
+            <Name>dZapalkiDruida</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Druid: Zapa=ek nie szukaj, mam je tutaj w kieszeni.
+return
 ]]></Script>
             <DialogOptions />
           </Dialog>
@@ -1697,7 +1786,7 @@ stop
         <PointSize>0</PointSize>
         <Name>Speech</Name>
         <OutlineFont>2</OutlineFont>
-        <OutlineStyle>UseOutlineFont</OutlineStyle>
+        <OutlineStyle>Automatic</OutlineStyle>
         <SourceFilename />
       </Font>
       <Font>
@@ -2198,6 +2287,26 @@ stop
               <Sprite Slot="84" Width="220" Height="207" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\Dawid\Desktop\Background\inventory\skrzynia_duza_otwarta.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="150" Width="318" Height="238" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\inventory\nocnik_dobry.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="151" Width="318" Height="238" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\inventory\nocnik_zly.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="152" Width="322" Height="314" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Background\statek_01.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="153" Width="322" Height="314" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Dawid\Desktop\Background\statek_02.png</FileName>
                 </Source>
               </Sprite>
             </Sprites>
@@ -4997,6 +5106,39 @@ stop
                     <ID>12</ID>
                     <Image>97</Image>
                     <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>12</ID>
+            <Name>statek</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>152</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>153</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>152</Image>
+                    <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
