@@ -2337,9 +2337,9 @@ return
                   <FileName>C:\Users\Dawid\Desktop\Background\statek_02.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="161" Width="3820" Height="116" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+              <Sprite Slot="161" Width="3553" Height="69" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Dawid\Desktop\Nowy obraz mapy bitowej.bmp</FileName>
+                  <FileName>C:\Users\Dawid\Desktop\napisy\Dawid.png</FileName>
                 </Source>
               </Sprite>
             </Sprites>
