@@ -2610,7 +2610,7 @@ return
               </Sprite>
               <Sprite Slot="67" Width="343" Height="474" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Dawid\Downloads\Scena_2\Background\Menu\pergamin.png</FileName>
+                  <FileName>C:\Users\Dawid\Desktop\napisy\pergamin.png</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="78" Width="88" Height="98" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
@@ -2650,32 +2650,32 @@ return
               </Sprite>
               <Sprite Slot="154" Width="343" Height="474" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Dawid\Desktop\inventory\pergamin_skreslenie1.png</FileName>
+                  <FileName>C:\Users\Dawid\Desktop\napisy\pergamin_skreslenie1.png</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="155" Width="343" Height="474" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Dawid\Desktop\inventory\pergamin_skreslenie2.png</FileName>
+                  <FileName>C:\Users\Dawid\Desktop\napisy\pergamin_skreslenie2.png</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="156" Width="343" Height="474" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Dawid\Desktop\inventory\pergamin_skreslenie3.png</FileName>
+                  <FileName>C:\Users\Dawid\Desktop\napisy\pergamin_skreslenie3.png</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="157" Width="343" Height="474" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Dawid\Desktop\inventory\pergamin_skreslenie4.png</FileName>
+                  <FileName>C:\Users\Dawid\Desktop\napisy\pergamin_skreslenie4.png</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="158" Width="343" Height="474" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Dawid\Desktop\inventory\pergamin_skreslenie5.png</FileName>
+                  <FileName>C:\Users\Dawid\Desktop\napisy\pergamin_skreslenie5.png</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="159" Width="343" Height="474" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Dawid\Desktop\inventory\pergamin_skreslenie6.png</FileName>
+                  <FileName>C:\Users\Dawid\Desktop\napisy\pergamin_skreslenie6.png</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="160" Width="88" Height="98" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
@@ -5455,8 +5455,8 @@ See KeyboardMovement.txt for details.
             <SubFolders />
             <AudioClips>
               <AudioClip>
-                <ScriptName>aScene_1___Beach_theme</ScriptName>
                 <SourceFileName xml:space="preserve">C:\Users\Dawid\Desktop\muzyka\Muzyka i dzwieki\Scene 1 - Beach theme.ogg</SourceFileName>
+                <ScriptName>aScene_1___Beach_theme</ScriptName>
                 <Index>8</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -5668,8 +5668,8 @@ See KeyboardMovement.txt for details.
     </AudioClips>
     <AudioClipTypes>
       <AudioClipType>
-        <Name xml:space="preserve">Ambient Sound</Name>
         <TypeID>1</TypeID>
+        <Name xml:space="preserve">Ambient Sound</Name>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
