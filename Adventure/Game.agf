@@ -1146,7 +1146,7 @@
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
-            <StartingRoom>4</StartingRoom>
+            <StartingRoom>3</StartingRoom>
             <StartX>1000</StartX>
             <StartY>620</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
