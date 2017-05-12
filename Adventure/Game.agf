@@ -1146,7 +1146,7 @@
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
-            <StartingRoom>3</StartingRoom>
+            <StartingRoom>4</StartingRoom>
             <StartX>1000</StartX>
             <StartY>620</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -2337,7 +2337,7 @@ return
                   <FileName>C:\Users\Dawid\Desktop\Background\statek_02.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="161" Width="3553" Height="69" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+              <Sprite Slot="161" Width="3600" Height="68" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\Dawid\Desktop\napisy\Dawid.png</FileName>
                 </Source>
